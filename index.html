@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello! Word - Vocabulary Memo App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #4285F4;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .feature-list li:before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #4285F4;
+    }
+    .bilingual {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .bilingual > div {
+      flex: 1;
+      min-width: 300px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #4285F4;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #306ad1;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hello! Word</h1>
+    <p>Your Ultimate Vocabulary Memo App<br>最高のボキャブラリーメモアプリ</p>
+  </header>
+
+  <div class="container">
+    <!-- About Section -->
+    <section id="about">
+      <h2>About / アプリについて</h2>
+      <div class="bilingual">
+        <div>
+          <h3>English</h3>
+          <p>Hello! Word is a powerful vocabulary memo app designed to help you learn, organize, and review new words easily. With features like flashcard mode, search & filter, image support, and more, you can manage your vocabulary efficiently while enjoying an interactive learning experience.</p>
+        </div>
+        <div>
+          <h3>日本語</h3>
+          <p>Hello! Wordは、新しい単語の学習、整理、復習を簡単に行える強力なボキャブラリーメモアプリです。フラッシュカードモード、検索＆フィルター機能、画像サポートなどの機能を備え、インタラクティブな学習体験を楽しみながら効率的に単語管理が可能です。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Features / 特徴</h2>
+      <div class="bilingual">
+        <div>
+          <h3>English</h3>
+          <ul class="feature-list">
+            <li>Flashcard Mode for interactive learning</li>
+            <li>Add, edit, and delete vocabulary easily</li>
+            <li>Search and filter your vocabulary list</li>
+            <li>Organize words by creation and update dates</li>
+            <li>Support for images and example sentences</li>
+            <li>Audio feedback for learning reinforcement</li>
+          </ul>
+        </div>
+        <div>
+          <h3>日本語</h3>
+          <ul class="feature-list">
+            <li>インタラクティブな学習ができるフラッシュカードモード</li>
+            <li>単語の追加・編集・削除が簡単に行える</li>
+            <li>単語リストの検索＆フィルター機能</li>
+            <li>作成日や更新日で単語を整理可能</li>
+            <li>画像や例文のサポート</li>
+            <li>学習を強化するための効果音フィードバック</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+      <h2>How It Works / 使い方</h2>
+      <div class="bilingual">
+        <div>
+          <h3>English</h3>
+          <p>Simply add new vocabulary entries, attach images or example sentences, and mark your learning status. Use the flashcard mode to review and test your knowledge by swiping to mark words as known or unknown.</p>
+        </div>
+        <div>
+          <h3>日本語</h3>
+          <p>新しい単語エントリーを追加し、画像や例文を添付、学習状況をマークするだけで簡単に使用できます。フラッシュカードモードでは、スワイプ操作で「Known（知っている）」や「Unknown（知らない）」を選択し、知識を確認・テストできます。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="download">
+      <h2>Get Started / 今すぐ始めよう</h2>
+      <p style="text-align: center;">
+        <a href="https://apps.apple.com/app/id6742373610" class="btn" target="_blank" rel="noopener">Download Now / ダウンロードはこちら</a>
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hello! Word. All rights reserved.</p>
+  </footer>
+</body>
+</html>
